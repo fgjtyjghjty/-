@@ -1,6 +1,6 @@
 # 机器人决斗修改器
 
-Clone Drone in the Danger Zone（机器人决斗场）单人修改器，无注释版源码。
+Clone Drone in the Danger Zone（机器人决斗场）单人修改器，。
 
 ## 构成
 
