@@ -1,0 +1,65 @@
+#pragma once
+#define JQR_ENEMYTYPE_COUNT 85
+static const int g_typeIds[JQR_ENEMYTYPE_COUNT] = {
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+    10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+    20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+    30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+    40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+    50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
+    60, 61, 62, 63, 64, 65, 66, 67, 68, 69,
+    70, 71, 72, 73, 74, 75, 76, 77, 78, 81,
+    85, 86, 87, 88, 89,
+};
+static const char* g_typeNames[JQR_ENEMYTYPE_COUNT] = {
+    "None", "Swordsman1", "Bowman1", "SummonWalker",
+    "Swordsman2", "Swordsman3", "Bowman2", "Bowman3",
+    "Spidertron5000", "HappyGarbageRobot", "AngryGarbageRobot", "Sprinter1",
+    "Sprinter2", "SprinterBowman", "Spidertron6000", "Bowman2_Stationary",
+    "Hammer1", "Hammer2", "Hammer3", "JetpackHammer",
+    "EscapeGarbageRobot", "Swordsman4", "Bowman4", "Bowman4_Stationary",
+    "KickBot", "Swordsman5", "Bowman5", "FireRaptor",
+    "BusinessSword", "ArmorBot", "BusinessHammer", "FleetOverseer",
+    "BusinessJetpack", "CheerBot", "Spear1", "Spear2",
+    "Spear3", "Spear4", "JetpackSpear1", "JetpackSpear2",
+    "AnalysisBot", "FleetAnalysisBot1", "FleetAnalysisBot2", "FleetAnalysisBot3",
+    "FleetAnalysisBot4", "FleetCaptain", "PlayerDummy", "Hammer5",
+    "Spear5", "LaserRaptor", "KickBot2", "BattleCruiser",
+    "BattleCruiserGatling", "BattleCruiserSniper", "BattleCruiserRam", "RobotFighterShipGatling",
+    "RobotFighterShipLaser", "BattleCruiserMissiles", "MindSpaceAvatar", "HumanBattleCruiser",
+    "AntiMissileEscortShip", "BattlecruiserFlagship", "EmperorCombat", "EmperorNonCombat",
+    "ImperialRepairBot", "MindSpaceHammer", "MindSpaceSpear", "MindSpaceSpidertron",
+    "FleetCaptain2", "FleetCaptain3", "FleetCaptain4", "FleetCaptain5",
+    "FleetCaptain6", "Zombie1", "Zombie2", "Zombie3",
+    "Zombie4", "ZombieArcher1", "ZombieArcher2", "ZombieJetpack1",
+    "ZombieRaptor", "ZombieFleetCaptain", "RidableEmperor", "SawbladeUnicycle",
+    "RidableProjectileCrawler",
+};
+
+static const char* g_typeNamesCN[JQR_ENEMYTYPE_COUNT] = {
+    "无",               "剑士 I",           "弓箭手 I",         "召唤行者",
+    "剑士 II",          "剑士 III",         "弓箭手 II",        "弓箭手 III",
+    "蜘蛛龙5000",       "快乐垃圾机器人",   "愤怒垃圾机器人",   "疾跑者 I",
+    "疾跑者 II",        "疾跑弓箭手",       "蜘蛛龙6000",       "弓箭手 II 固定",
+    "锤兵 I",           "锤兵 II",          "锤兵 III",         "喷气锤兵",
+    "逃跑垃圾机器人",   "剑士 IV",          "弓箭手 IV",        "弓箭手 IV 固定",
+    "踢腿机器人",       "剑士 V",           "弓箭手 V",         "烈焰猛禽",
+    "商务剑士",         "装甲机器人",       "商务锤兵",         "舰队监工",
+    "商务喷气兵",       "啦啦队机器人",     "长矛兵 I",         "长矛兵 II",
+    "长矛兵 III",       "长矛兵 IV",        "喷气长矛兵 I",     "喷气长矛兵 II",
+    "分析机器人",       "舰队分析机 I",     "舰队分析机 II",    "舰队分析机 III",
+    "舰队分析机 IV",    "舰队舰长",         "玩家替身",         "锤兵 V",
+    "长矛兵 V",         "激光猛禽",         "踢腿机器人 II",    "战列巡洋舰",
+    "战巡 - 加特林",    "战巡 - 狙击",      "战巡 - 撞击",      "战机 - 加特林",
+    "战机 - 激光",      "战巡 - 导弹",      "意识空间化身",     "人类战巡",
+    "反导护卫舰",       "战巡旗舰",         "皇帝 - 战斗",      "皇帝 - 非战斗",
+    "帝国维修机器人",   "意识空间锤兵",     "意识空间长矛兵",   "意识空间蜘蛛龙",
+    "舰队舰长 II",      "舰队舰长 III",     "舰队舰长 IV",      "舰队舰长 V",
+    "舰队舰长 VI",      "僵尸 I",           "僵尸 II",          "僵尸 III",
+    "僵尸 IV",          "僵尸弓箭手 I",     "僵尸弓箭手 II",    "僵尸喷气兵",
+    "僵尸猛禽",         "僵尸舰队舰长",     "可骑乘皇帝",       "锯片独轮车",
+    "可骑射弹爬虫",
+};
+
+static const int g_warshipIds[] = {51, 52, 53, 54, 55, 56, 57, 59, 60, 61};
+#define JQR_WARSHIP_COUNT (sizeof(g_warshipIds)/sizeof(g_warshipIds[0]))
